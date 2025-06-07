@@ -53,7 +53,7 @@ export default function Tenzies() {
         {gameWon && <Fireworks autorun={{ speed: 2 }} />}
         <header>
           <h1>Tenzies</h1>
-          <img src="/public/dice.png" alt="" />
+          <img src="dice.png" alt="dice-as-a-logo" />
           <p>
             Roll until all dice are the same. Click each die to freeze it at its
             current value between rolls.
